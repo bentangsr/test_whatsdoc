@@ -25,7 +25,7 @@ change this config like on your local in config/database.yml
 
 On development environment
 
-  $ rails s
+  $ rails s <br />
   $ bundle exec sidekiq #for create data because we use redis and sidekiq for process new data
 
 ## How to run the test suite
@@ -83,5 +83,5 @@ Here is example of valid response:
  }
 ```
 ### Here example on postman you can try
-export this link to postman
+export this link to postman <br />
 https://www.getpostman.com/collections/d4c9f234c2877083dcad 
