@@ -40,9 +40,60 @@ Full-suite
 ### Show list of doctors
 
 ```GET /api/v1/users/doctors```
+response:
+```json
+[
+    {
+        "id": 10,
+        "name": "Pres. Trent Osinski",
+        "phone": "+16055519430",
+        "address": "Apt. 217 870 Greenfelder Avenue, Dickiland, NY 34818-3662",
+        "country_id": 2,
+        "gender": "male",
+        "secure_pin": null,
+        "secure_pin_checkout": null,
+        "avatar": {
+            "url": null
+        },
+        "user_type": null,
+        "user_status": null,
+        "login_status": null,
+        "user_identity_card": null,
+        "fcm_token": null,
+        "personable_type": "Doctor",
+        "personable_id": 5,
+        "email": "patricia.balistreri@okuneva.info",
+        "created_at": "2022-11-20T22:31:32.864Z",
+        "updated_at": "2022-11-21T02:05:21.888Z"
+    },
+    {
+        "id": 9,
+        "name": "Alta Oberbrunner",
+        "phone": "+14043612925",
+        "address": "Suite 957 420 Gary Tunnel, Gustavoport, MA 78150",
+        "country_id": 1,
+        "gender": "male",
+        "secure_pin": null,
+        "secure_pin_checkout": null,
+        "avatar": {
+            "url": null
+        },
+        "user_type": null,
+        "user_status": null,
+        "login_status": null,
+        "user_identity_card": null,
+        "fcm_token": null,
+        "personable_type": "Doctor",
+        "personable_id": 6,
+        "email": "misty@bartell.co",
+        "created_at": "2022-11-20T22:31:32.599Z",
+        "updated_at": "2022-11-20T22:31:32.599Z"
+    }
+]
+```
 
 ```POST /api/v1/users/doctors```
-Here is example of valid response:
+Here is example of valid request:
 ```json
 {"user_doctor":                                   
   {"user":                                        
@@ -63,9 +114,60 @@ Here is example of valid response:
 ### Show list of patients
 
 ```GET /api/v1/users/patients```
+response :
+```json
+[
+      {
+        "id": 12,
+        "name": "Berry O'Kon",
+        "phone": "+12607138800",
+        "address": "252 Christiansen Circles, Riceside, NH 89209-8487",
+        "country_id": 1,
+        "gender": "female",
+        "secure_pin": null,
+        "secure_pin_checkout": null,
+        "avatar": {
+            "url": null
+        },
+        "user_type": null,
+        "user_status": null,
+        "login_status": null,
+        "user_identity_card": null,
+        "fcm_token": null,
+        "personable_type": "Patient",
+        "personable_id": 9,
+        "email": "alayna.bednar@morar-gorczany.co",
+        "created_at": "2022-11-20T22:31:33.402Z",
+        "updated_at": "2022-11-20T22:31:33.402Z"
+    },
+    {
+        "id": 11,
+        "name": "Yuri Streich",
+        "phone": "+12122090036",
+        "address": "Suite 525 714 Garret Springs, Januaryview, MD 08130",
+        "country_id": 1,
+        "gender": "male",
+        "secure_pin": null,
+        "secure_pin_checkout": null,
+        "avatar": {
+            "url": null
+        },
+        "user_type": null,
+        "user_status": null,
+        "login_status": null,
+        "user_identity_card": null,
+        "fcm_token": null,
+        "personable_type": "Patient",
+        "personable_id": 7,
+        "email": "dorian.witting@sipes-feil.biz",
+        "created_at": "2022-11-20T22:31:33.132Z",
+        "updated_at": "2022-11-20T22:31:33.132Z"
+    }
+]
+```
 
 ```POST /api/v1/users/patients```
-Here is example of valid response:
+Here is example of valid request:
 ```json
 {"user_patient":                                   
   {"user":                                        
