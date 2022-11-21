@@ -1,0 +1,10 @@
+user_1:
+  id: 1
+  name: 'Shawana'
+  country_id: 1
+  phone: '+6282118526527'
+  address: '348 Runolfsson Rapid, Kashaberg, CT 68803-0201'
+  gender: 'female'
+  email: 'rdd@abbott.co'
+  personable_type: 'Doctor'
+  personable_id: 1

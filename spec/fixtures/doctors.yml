@@ -1,0 +1,7 @@
+doctor_1:
+  id: 1
+  specialist_id: 1
+  workspace_id: 1
+  chat_price: 61.57
+  phone_price: 93.64
+  video_price: 99.0
