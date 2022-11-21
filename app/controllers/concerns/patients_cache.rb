@@ -13,7 +13,7 @@ module PatientsCache
   def fetch_patient(id)
     patient = Rails.cache.read("user/patient/#{id}")
     if patient.nil?
-      Rails.cache.fetch("user/patient/#{id}", expires_in: 2.hours.to_i) do
+      Rails.cache.fetch("user/patient/#{id}", expires_in: 2.hours) do
         patient = User.patients.find_by_id(id).to_json
       end
     end
