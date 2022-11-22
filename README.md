@@ -23,8 +23,8 @@ change this config like on your local in config/database.yml
 ```
 ## Usage
 
-On development environment
-  $ rake db:seed <br />
+On development environment <br />
+  $ rails db:seed <br />
   $ rails s <br />
   $ bundle exec sidekiq #for create data because we use redis and sidekiq for process new data
 
